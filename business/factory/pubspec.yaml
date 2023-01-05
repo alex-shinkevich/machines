@@ -1,0 +1,16 @@
+name: factory
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+dependencies:
+  stuffs:
+    path: ../stuffs
+
+  equatable: ^2.0.5
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.16.0
